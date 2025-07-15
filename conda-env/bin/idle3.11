@@ -1,0 +1,5 @@
+#!/home/raj-w/Projects/aiio_cdp/conda-env/bin/python3.11
+
+from idlelib.pyshell import main
+if __name__ == '__main__':
+    main()

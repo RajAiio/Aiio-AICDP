@@ -1,0 +1,13 @@
+prefix=/home/raj-w/Projects/aiio_cdp/conda-env
+exec_prefix=/home/raj-w/Projects/aiio_cdp/conda-env
+libdir=/home/raj-w/Projects/aiio_cdp/conda-env/lib
+sharedlibdir=/home/raj-w/Projects/aiio_cdp/conda-env/lib
+includedir=/home/raj-w/Projects/aiio_cdp/conda-env/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.13
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}
